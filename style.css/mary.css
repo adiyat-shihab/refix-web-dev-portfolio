@@ -1,8 +1,17 @@
 body {
-  font-family: open sans;
+  font-family: "Open Sans", sans-serif;
+}
+header {
+  background-color: #fff8f3;
+  background-image: url(/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 nav {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 230px;
 }
 /* navigation heading style */
 .nav-title {
@@ -12,14 +21,15 @@ nav {
   cursor: default;
 }
 .primary-color {
-  background-color: #fd6e0a;
+  color: #fd6e0a;
 }
-/* navigation button and ancor style */
+/* navigation button and anchor style */
 nav a {
   text-decoration: none;
 }
 nav > ul {
   display: flex;
+  align-items: center;
 }
 nav li {
   list-style: none;
@@ -39,13 +49,64 @@ nav button {
 }
 /* this is just creative hover for more beautiful */
 nav button:hover {
-  background-color: white;
+  background-color: #fff8f3;
   color: #fd6e0a;
-  border: 1px solid #fd6e0a;
-  padding: 18px 35px 19px 36px;
-  font-size: 20px;
-  font-weight: 700;
+  border: 0.1px solid #fd6e0a;
+  padding: 18px 34px 19px 35px;
 }
 nav li a {
   color: #474747;
+}
+/* this is main conten style */
+.main-container {
+  padding-left: 230px;
+  padding-right: 38px;
+  padding-top: 47px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.content-head {
+  max-width: 550px;
+}
+/* this is image related style */
+.hardy-chacha {
+  width: 584px;
+  height: 676px;
+}
+/* button related style */
+.btn-content {
+  /* button related style */
+  background-color: #fd6e0a;
+  border: none;
+  border-radius: 5px;
+  /* button text style */
+  padding: 18px 35px 19px 36px;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+  margin-right: 30px;
+}
+/* heading related style */
+.des-first {
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.des-second {
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.des-third {
+  margin-top: 0%;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #757575;
+  line-height: 30px;
 }
