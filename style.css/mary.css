@@ -4,8 +4,19 @@ body {
 nav {
   display: flex;
 }
+/* navigation heading style */
+.nav-title {
+  font-size: 45px;
+  font-weight: 800;
+  color: #181818;
+  cursor: default;
+}
 .primary-color {
   background-color: #fd6e0a;
+}
+/* navigation button and ancor style */
+nav a {
+  text-decoration: none;
 }
 nav > ul {
   display: flex;
@@ -15,9 +26,26 @@ nav li {
   margin-right: 50px;
 }
 nav button {
+  /* button related style */
   background-color: #fd6e0a;
   border: none;
   border-radius: 5px;
-  width: 70px;
-  height: 35px;
+  /* button text style */
+  padding: 18px 35px 19px 36px;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+/* this is just creative hover for more beautiful */
+nav button:hover {
+  background-color: white;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
+  padding: 18px 35px 19px 36px;
+  font-size: 20px;
+  font-weight: 700;
+}
+nav li a {
+  color: #474747;
 }
