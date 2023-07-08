@@ -1,0 +1,23 @@
+body {
+  font-family: open sans;
+}
+nav {
+  display: flex;
+}
+.primary-color {
+  background-color: #fd6e0a;
+}
+nav > ul {
+  display: flex;
+}
+nav li {
+  list-style: none;
+  margin-right: 50px;
+}
+nav button {
+  background-color: #fd6e0a;
+  border: none;
+  border-radius: 5px;
+  width: 70px;
+  height: 35px;
+}
