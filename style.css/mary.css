@@ -110,3 +110,61 @@ nav li a {
   color: #757575;
   line-height: 30px;
 }
+/* main part start */
+.about {
+  background-color: #fff8f3;
+  max-width: 1140px;
+  margin: 130px auto;
+  padding: 209px 157px 219px 156px;
+}
+.section-title,
+.section-description {
+  text-align: center;
+  line-height: 30px;
+  cursor: default;
+}
+.section-address {
+  display: flex;
+  align-items: center;
+  margin-left: 179px;
+  margin-right: 179px;
+  justify-content: space-around;
+}
+.address-name,
+.email,
+.birth,
+.country {
+  text-align: center;
+  cursor: default;
+}
+/* section 1 complete  */
+.skill-section {
+  margin-left: 230px;
+  margin-right: 230px;
+  display: flex;
+  justify-content: space-around;
+}
+.what-i-do {
+  text-align: center;
+  max-width: 909px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.javascript,
+.node-js,
+.mongobd,
+.react {
+  width: 267px;
+  height: 300px;
+  border-radius: 5px;
+  padding: 30px 33px;
+  line-height: 28px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  background-color: white;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-section p {
+  color: #757575;
+}
